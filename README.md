@@ -1,2 +1,2 @@
-# youtube-replica
+# YouTube Replica
 HTML Page Structure Project
