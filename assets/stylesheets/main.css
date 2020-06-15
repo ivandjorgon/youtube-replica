@@ -81,3 +81,15 @@ code {
 	margin: 8px 0 0 20px;
 	padding: 4px;
   }
+
+  header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 5rem;
+	background-color: white;
+	z-index: 69;
+  }
