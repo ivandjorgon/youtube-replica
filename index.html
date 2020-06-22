@@ -1,59 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="assets/stylesheets/main.css">
-        <title>YouTube Replica</title>
-        <img src="assets/images/ytheader.png" alt="YouTube Header">
-    </head>
-    <body>
-          <header>
-            <button class="btn menu-btn">
-              <img src="assets/images/menu.svg" alt="menu" />
-            </button>
-            <button class="btn home-btn">
-              <img src="assets/images/youtube.svg" alt="youtube logo" />
-              <h1>YouTube</h1>
-            </button>
-            <div class="search-bar">
-              <input class="search-input" type="text" placeholder="Search" />
-              <button class="btn search-btn">
-                <img src="assets/images/magnify.svg" alt="magnify" />
-              </button>
-            </div>
-            <div class="user-options">
-              <button class="btn add-video-btn">
-                <img src="assets/images/video-plus.svg" alt="add video" />
-              </button>
-              <button class="btn apps-btn">
-                <img src="assets/images/apps.svg" alt="apps" />
-              </button>
-              <button class="btn options-btn">
-                <img src="assets/images/dots-vertical.svg" alt="options" />
-              </button>
-              <button class="btn sign-btn">
-                <img src="assets/images/account-circle.svg" alt="no user avatar" />
-                <span>SIGN IN</span>
-              </button>
-            </div>
-          </header>
-          
-          <section>
-            <code><br>
-              <iframe width="720" height="350" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-              <img src="assets/images/comments.png" alt="Comments">
-            </code>
-          </section>
-          
-          <aside>
-            <code><br>
-              <img src="assets/images/image1.png" alt="Images 1">
-              <img src="assets/images/image2.png" alt="Images 2">
-            </code>
-          </aside>
-          
-          <footer>
-            <code>&#60;footer&#62;</code>
-          </footer>
-    </body>
+<html>
+
+  <head>
+    <link href="assets/stylesheets/reset.css"  rel="stylesheet">
+    <link href="assets/stylesheets/main.css"  rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Embed videos and playlists</title>
+    <link rel="icon" type="image/png" href="assets/images/YouTube-icon.png">
+  </head>
+
+  <body>
+    <header>
+      <img class="small-icon" src="assets/images/menu.png" type="image/png">
+      <img class="small-icon" src="assets/images/ytlogo.png" type="image/png">
+      <input type="text">
+      <span class="small-icon right signin">SIGN IN</span>
+      <img class="small-icon right" src="assets/images/dots.png" type="image/png">
+      <img class="small-icon right" src="assets/images/squares.png" type="image/png">
+      <img class="small-icon right" src="assets/images/camera.png" type="image/png">
+    </header>
+    <section>
+      <span class="main">
+        <iframe width="850" height="450" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+      </span>
+      <aside class="popis">
+        <ul>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 1</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 2</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 3</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 4</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 5</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 6</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 7</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika2.jpg" class="slikica"> <h5>Number 8</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika3.png" class="slikica"> <h5>Number 9</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika3.png" class="slikica"> <h5>Number 10</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika3.png" class="slikica"> <h5>Number 11</h5> Lorem ipsum dolor sit amet</li>
+          <li><img src="assets/images/slika3.png" class="slikica"> <h5>Number 12</h5> Lorem ipsum dolor sit amet</li>
+        </ul>
+      </aside>
+    </section>
+
+  </body>
+
 </html>
