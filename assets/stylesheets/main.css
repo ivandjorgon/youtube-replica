@@ -3,10 +3,12 @@ header{
   border-bottom: 5px solid whitesmoke;
   height: 55px;
 }
- .small-icon {
-   height: 25px;
-   margin: 15px 0 0 25px;
- }
+
+.small-icon {
+  height: 25px;
+  margin: 15px 0 0 25px;
+}
+
 .right {
   float: right;
   margin-right: 15px;
@@ -17,41 +19,39 @@ header{
   font-weight: 500;
   font-size: 17px;
   margin-top: 20px;
+
 }
 input{
   width: 25%;
   margin: 5px 0 10px 20%;
 }
 
-/*main*/
 section{
   width: 1200px;
   height: 2000px;
   margin: auto;
   
 }
-.popis {
+.side {
   float: right;
   width: 30%;
   height: 100%;
 
 }
-.main{
+
+.main {
   float: left;
   width: 65%;
   height: 100%;
-
 }
 
-/**popis videa*/
 li {
   width: 90%;
   float: right;
   height: 100px;
-
 }
-.slikica{
+
+.pic {
   float: left;
   height: 90px;
-
 }
